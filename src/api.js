@@ -10,7 +10,7 @@ const apiKey = process.env.REACT_APP_RAWG_API;
 
 // Store our api endpoints
 const baseURL = "https://api.rawg.io/api/";
-const popularGames = `games?key=${apiKey}&dates=${prevYear},${today}&ordering=-rating&page_size=20`;
+const popularGames = `games?key=${apiKey}&dates=${prevYear},${today}&ordering=-rating&page_size=10`;
 
 export const popularGamesURL = `${baseURL}${popularGames}`;
 
